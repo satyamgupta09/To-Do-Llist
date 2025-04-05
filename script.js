@@ -14,7 +14,7 @@ document.getElementById("submit").addEventListener("click", function () {
     return
   }
 
-  console.log(todo, " ", date, " ", priority, " ", today)
+  // console.log(todo, " ", date, " ", priority, " ", today)
 
   todos.push({ name: todo, date: date, priority: priority, completed: false })
 
